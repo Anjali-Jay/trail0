@@ -1,0 +1,39 @@
+
+.mainpage {
+	border-style: solid;
+	color: #ff9757;
+	margin: 9px;
+	padding: 20px 20px;
+	position: relative;
+	text-align: center;
+	background-color: #ff9d69;
+
+}
+
+.sections {
+	background-color: white;
+	
+	border-radius: 12px;
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+
+}
+
+
+.btn {
+  background-color: #fad4c8;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 450px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #faa25f;
+  color: white;
+  }
