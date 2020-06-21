@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> ACCESSORIES </title>
+		<link rel=stylesheet href="collection.css">
+		<script src="buy.js"></script>
+		
+	</head>
+	<body>
+		<div>
+			<h2 style="text-align: center;">...ACCESSORIES...</h2>
+		</div>
+
+		<div>
+			<table class="filter">
+				<tr>
+					<th>size</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="smsize" value="small" >
+						<label for="smsize">small</label>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="msize" value="medium" >
+						<label for="msize">medium</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="lsize" value="large" >
+						<label for="lsize">large</label>
+					</td>
+				</tr>
+
+				<tr>
+					<th>color</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="red" value="red" >
+						<label for="red">red</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="black" value="black" >
+						<label for="black">black</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="blue" value="blue" >
+						<label for="blue">blue</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="white" value="white" >
+						<label for="white">white</label>
+					</td>
+				</tr>
+			</table>
+		</div>
+	
+		<div class="border">
+			<form action="bill.html">			
+			<table class="tbl">
+				<tr>
+					<td>
+						<img src="clothing\men\acc1.jpg" width="25%" >
+						<p>bag<br> price: Rs.5330</p>	
+						<input class="buy" id="a1" type="submit" value="Buy Now"  onclick="bill1()" /> <br><br>
+						<a class="cart">Add to Cart</a>					
+					</td>
+					<td>
+						<img src="clothing\men\acc2.jpg" width="25%" >
+						<p>waist purse<br> price: Rs.2550</p>
+						<input class="buy" id="a2" type="submit" value="Buy Now" onclick="bill2()" /> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>				
+				</tr>
+				<tr>
+						<td>
+						<img src="clothing\men\acc3.jpg" width="25%" >
+						<p>wallet<br> price: Rs.3700</p>
+						<input class="buy" id="a3" type="submit" value="Buy Now" onclick="bill3()"/> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>
+					<td>
+						<img src="clothing\men\acc4.jpg" width="25%" >
+						<p>weird glasses<br> price: Rs.800</p>
+						<input class="buy" id="a4" type="submit" value="Buy Now" onclick="bill4()"/> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>				
+				</tr>
+				<tr>
+					<td>
+						<img src="clothing\men\acc5.jpg" width="25%" >
+						<p>tobe fly high cap<br> price: Rs.1150</p>
+						<input class="buy" id="a5" type="submit" value="Buy Now" onclick="bill5()"/> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+	</body>
+</html>
