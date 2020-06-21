@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> TOPS </title>
+		<link rel=stylesheet href="collection.css">
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+
+			document.querySelector('#smsize').onclick = function() {
+				document.querySelector('#hello').style.color = 'red';		
+			};
+			};	
+		</script>
+	</head>
+	<body>
+		<div>
+			<h2 style="text-align: center;">...TOPS...</h2>
+		</div>
+
+
+		<div>
+			<table class="filter">
+				<tr>
+					<th>size</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="smsize" value="small" >
+						<label for="smsize">small</label>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="msize" value="medium" >
+						<label for="msize">medium</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="lsize" value="large" >
+						<label for="lsize">large</label>
+					</td>
+				</tr>
+
+				<tr>
+					<th>color</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="red" value="red" >
+						<label for="red">red</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="black" value="black" >
+						<label for="black">black</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="blue" value="blue" >
+						<label for="blue">blue</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="white" value="white" >
+						<label for="white">white</label>
+					</td>
+				</tr>
+			</table>
+		</div>
+	
+		<div class="border">
+						
+			<table class="tbl">
+				<tr>
+					<td>
+						<img src="clothing\women\top1.jpg" width="25%" >
+						<p>white sweater<br> price: Rs.300</p>	
+						<a class="buy" href="billing.html">Buy Now </a> <br><br>
+						<a class="cart">Add to Cart</a>					
+					</td>
+					<td>
+						<img src="clothing\women\top2.jpg" width="25%" >
+						<p>red top <br> price: Rs.550</p>
+						<a class="buy" href="billing.html">Buy Now </a> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>				
+				</tr>
+				<tr>
+						<td>
+						<img src="clothing\women\top3.jpg" width="25%" >
+						<p>polka dotted yellow top <br> price: Rs.700</p>
+						<a class="buy" href="billing.html">Buy Now </a> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>
+					<td>
+						<img src="clothing\women\top4.jpg" width="25%" >
+						<p>sleeveless top <br> price: Rs.890</p>
+						<a class="buy" href="billing.html">Buy Now </a> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>				
+				</tr>
+				<tr>
+					<td>
+						<img src="clothing\women\top5.jpg" width="25%" >
+						<p>red top <br> price: Rs.1050</p>
+						<a class="buy" href="billing.html">Buy Now </a> <br><br>
+						<a class="cart">Add to Cart</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
