@@ -1,0 +1,98 @@
+
+.filter {
+	border-style: solid;
+	border-color: #ff9694;
+	position: fixed;
+	top: 300px;
+	padding: 30px 30px;
+	margin-left: 10px;
+	left: 10px;
+	width: 20%;
+	
+	font-size: 20px;
+	font-family: serif;
+	border-spacing: 35px; 
+}
+
+.filter th {
+	font-size: 25px;
+	background-color: #ffa3a1;
+	color: white;
+}
+
+
+
+
+
+
+.border {
+	
+	padding: 10px 10px;
+	background-color: #ffcdcc;
+	margin-top: -570px;
+
+}
+
+
+.tbl {
+	position: absolute;
+	background-color: pink;
+	margin-left: 390px;
+	margin-right: 40px;
+	top: 290px;
+	bottom: 150px;
+	margin-bottom: 10px;
+}
+
+
+
+.tbl td {
+	text-align: center;
+	
+	padding: 30px;
+	background-color: white;
+	position: relative;
+	border-collapse: separate;
+	border-spacing: 20px 10px;
+
+}
+
+.buy {
+	background-color: #fad4c8;
+  	border: none;
+  	border-radius: 5px;
+  	padding: 10px 40px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	color: black;
+}
+
+.buy:hover {
+  background-color: #faa25f;
+  color: white;
+  }
+
+.cart {
+	background-color: #fad4c8;
+  	border: none;
+  	border-radius: 5px;
+  	padding: 10px 40px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	color: black;
+}
+
+.cart:hover {
+  background-color: #faa25f;
+  color: white;
+  }
+
+
+.filter {
+	position: relative;
+	border-style: solid;
+}
